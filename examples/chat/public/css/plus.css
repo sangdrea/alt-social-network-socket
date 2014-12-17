@@ -1,0 +1,174 @@
+body {
+  font: 13px/1.4 Arial, sans-serif; }
+
+div.main {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd; }
+
+h2 {
+  font-size: 18px;
+  color: #333;
+  font-weight: normal;
+  margin: 1em 0 0.5em; }
+
+div.preview_form {
+  margin: 2em; }
+  div.preview_form div.field {
+    position: relative; 
+    margin-left: -2.8%;
+    margin-top: -2.6%;
+
+  }
+  div.preview_form label {
+    color: #999;
+    position: absolute;
+    left: 15px;
+    top: 10px; }
+  div.preview_form textarea {
+    border: 5px solid #3B5998;
+    padding: 0;
+    width: 79.3%;
+    height:50px;
+    line-height: 1.4em;
+    cursor: text;
+    resize: none; 
+  }
+
+  div.preview_form button, div.preview_form input#id_submit {
+      background-color:#314179;
+      border:1px solid #637aad;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:arial;
+      font-size:14px;
+      font-weight:bold;
+      padding:12px 18px;
+      text-decoration:none;
+      float:right;
+      height: 50px;
+      width:100px;
+      margin-top:-7.8%;
+      margin-right: 8%;
+      opacity:1 !important;
+
+
+    /*text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: none;
+    padding: 0 8px;
+    text-align: center;
+    margin: 1em 0;*/ 
+
+  }
+    div.preview_form button:hover, div.preview_form input#id_submit:hover {
+      background-color: #5972a7; }
+    div.preview_form button.disabled, div.preview_form input#id_submit.disabled {
+      opacity: 0.5;
+      -moz-opacity: 0.5;
+      -webkit-opacity: 0.5;
+      -o-opacity: 0.5; }
+      div.preview_form button.disabled:hover, div.preview_form input#id_submit.disabled:hover {
+        background-color: #5972a7; }
+
+  div.preview_form button, div.preview_form input#id_submit2 {
+    background-color: #3D9400;
+    border: 1px solid #3B5998;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: none;
+    padding: 0 8px;
+    text-align: center;
+    margin: 1em 0; }
+    div.preview_form button:hover, div.preview_form input#id_submit2:hover {
+      background-color: #368200; }
+    div.preview_form button.disabled, div.preview_form input#id_submit2.disabled {
+      opacity: 0.5;
+      -moz-opacity: 0.5;
+      -webkit-opacity: 0.5;
+      -o-opacity: 0.5; }
+      div.preview_form button.disabled:hover, div.preview_form input#id_submit2.disabled:hover {
+        background-color: #3D9400; }
+
+ 
+
+#display, #loading {
+  border: 1px solid #ddd;
+  border-top: none;
+  width: 540px;
+  padding: 1em;
+  margin: -2px 0 0; }
+
+#loading {
+  text-align: center;
+  background-position: center center; }
+
+#display .controls {
+  background: rgba(0, 0, 0, 0.7);
+  height: 20px; }
+  #display .controls a.button {
+    text-decoration: none;
+    color: #999;
+    padding: 2px 5px;
+    outline: none; }
+    #display .controls a.button:hover {
+      color: #fff; }
+#display .items {
+  margin-top: -23px; }
+#display a.title {
+  color: #3366CC;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25em; }
+#display input.title {
+  display: block;
+  margin-bottom: 0.25em;
+  width: 490px; }
+#display .description {
+  line-height: 1.4em; }
+#display img.favicon {
+  float: left;
+  margin: 0 5px 5px 0; }
+#display #wrap {
+  clear: left; }
+
+#feed {
+  padding: 0;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  border-width: 0px 1px; }
+  #feed .item {
+    padding: 1em 2em;
+    border-bottom: 1px solid #ddd;
+    margin: 0; }
+    #feed .item.first {
+      border-top: 1px solid #ddd; }
+    #feed .item .favicon {
+      float: left;
+      margin: 0 5px 5px 0; }
+    #feed .item a.title {
+      color: #3366CC;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.25em; }
+    #feed .item .thumbnail {
+      clear: left;
+      margin-left: 5px; }
+    #feed .item .info {
+      font: 13px/1.4 arial, sans-serif;
+      color: #333; }
+      #feed .item .info p {
+        color: #333; }
